@@ -1,0 +1,261 @@
+body{
+    background-image: url("pozadina1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+#ul_top_hypers {
+    
+    display: flex;
+    justify-content:space-between;
+    list-style-type:none;
+    font-family: cursive;
+    float: left;
+}
+#socmr{
+display:flex;
+justify-content: space-between;
+list-style-type: none;
+float: right;
+
+}
+
+#prvo{
+   
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+#galerija{
+font-size: 3em;
+color:indianred;
+background-size: cover;
+background-repeat: no-repeat;
+text-align: center;
+font-family: cursive;
+-webkit-text-stroke: 0.9px #1c1b1b;
+}
+#podnaslov{
+text-align: center;
+color: indianred;
+font-style: italic;
+font-family: cursive;
+
+}
+
+#blog{
+    font-size: 3em;
+color: indianred;
+text-align: center;
+font-family: cursive;
+-webkit-text-stroke: 0.9px #1c1b1b;
+
+}
+
+#kukja{
+    margin-top: -10px;
+}
+li{
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+li a{
+    margin-left: 20px;
+    color:indianred;
+    font-size: large;
+    text-decoration: none;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+li:hover a{
+    color:black;
+    
+}
+#jas{
+    color:indianred;
+    text-align: center;
+    font-size:3em;
+    -webkit-text-stroke: 0.9px #1c1b1b;
+    
+    }
+    fieldset{
+        background-color: rgba(205, 92, 92, 0.452);
+        
+        border:1px solid #999;
+        border-radius:8px;
+        box-shadow:0 0 10px #999;
+     }
+     #pic1{
+        background-size: cover;
+        height: 300px;
+        width: 40%;
+        margin-left: 80px;
+        margin-top: 40px;
+        background-image: url("jasnaslovna.jpg");
+        float: left;
+        border: 3.4px solid indianred;
+     }
+
+ 
+     #text1{
+        font-size: 25px;
+        background-color: transparent;
+        width: 39%;
+        float: right;
+        margin-right:80px;
+        margin-top: 40px;
+        height: 500px;
+        
+    }
+    #pic2{
+       background-image: url("qtpie.jpg");
+        width: 39%;
+        height: 500px;
+        margin-right: 220px;
+        float: right;
+        border: 3.4px solid indianred;
+        
+        
+        margin-top: -45px;
+        background-size: cover;
+        height: 450px;
+    width: 400px;
+    display: flex;
+    align-items: flex-end;
+    }
+
+    #text2{
+        
+        font-size: 25px;
+        background-color: transparent;
+        width: 39%;
+        float: left;
+        margin-left:100px;
+        margin-top:200px;
+        height: 500px;
+    }
+    
+
+    
+    
+    
+    
+    
+    
+    
+#divNo1{
+    width: 20%;
+    height: 400px;
+    border: 2px solid indianred;
+    background-color: rgba(230, 122, 122, 0.733);
+    margin-left: 100px;
+    float: left;
+    
+}
+#slika1{
+    width: 90%;
+    margin-top: 20px;
+    border: 2px solid indianred;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    background-image: url("art.jpg");
+}
+#divNo2{
+    width: 20%;
+    height: 400px;
+    border: 2px solid indianred;
+    background-color: rgba(230, 122, 122, 0.733);
+    margin-left: 20px;
+    float: left;
+    
+}
+#slika2{
+    width: 90%;
+    margin-top: 20px;
+    border: 2px solid indianred;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    background-image: url("cufiboks.jpg");
+}
+#divNo3{
+    width: 20%;
+    height: 400px;
+    border: 2px solid indianred;
+    background-color: rgba(230, 122, 122, 0.733);
+    margin-left: 20px;
+    float: left;
+    
+}
+#slika3{
+    width: 90%;
+    margin-top: 20px;
+    border: 2px solid indianred;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    background-image: url("p1.jpg");
+}
+#divNo4{
+    width: 20%;
+    height: 400px;
+    border: 2px solid indianred;
+    background-color: rgba(230, 122, 122, 0.733);
+    margin-left: 20px;
+    float: left;
+    
+}
+#slika4{
+    width: 90%;
+    margin-top: 20px;
+    border: 2px solid indianred;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    background-image: url("bolesmesen.jpg");
+}
+.homepage{
+    margin-top: 100px;
+   color:indianred;
+    font-family: cursive;
+    text-align: center;
+    -webkit-text-stroke: 0.9px #1c1b1b;
+}
+hr{
+    height: 1px;
+    background-color: cornflowerblue;
+    border: none;
+    font-weight: bolder;
+}
+#textbox1{
+    position: absolute;
+    left: 50%; 
+    transform: translateX(-50%);
+    height: 30%;
+}
+.textUnderPic{
+    align-content: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+#lineUnderPic{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-top: 15px;
+    height: 2px;
+    background-color: indianred;
+}
