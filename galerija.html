@@ -2,7 +2,10 @@
     <head>
         <meta charset="ulf-8">
         <title>Gallery</title>
+        
         <link rel="stylesheet" href="C:\Users\User123\Desktop\FEIT\html 5\Проектна\proektnacss.css">
+        <script src="https://kit.fontawesome.com/2c6895789c.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="proekt.js"></script>
     </head>
 
     <body>
@@ -15,7 +18,7 @@
                 <li> <a href="file:///C:/Users/User123/Desktop/FEIT/html%205/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%BD%D0%B0/AboutMe.html" > ABOUT ME  </a></li>
                 <li> <a href="file:///C:/Users/User123/Desktop/FEIT/html%205/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%BD%D0%B0/galerija.html" > GALLERY  </a></li>
                 <li> <a href="file:///C:/Users/User123/Desktop/FEIT/html%205/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%BD%D0%B0/MyBlog.html" > BLOG  </a></li>
-                <li> <a href="" > FORUM  </a></li>
+                <li> <a href="file:///C:/Users/User123/Desktop/FEIT/html%205/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%BD%D0%B0/survey.html" > SURVEY  </a></li>
                 
             </ul>
         
@@ -44,42 +47,129 @@
         My Gallery
     </h1>
     
-    <p id="podnaslov">...some of my memories to get to know me</p>
+    
     <br>
 
     
     <div id="allPics">
-        <div id="divNo1">
+        <div class="divNo2">
             <div id="slika1"></div>
             <hr id="lineUnderPic">
-            <div class="textUnderPic">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+            <div class="container">
+                <div id="kocka" style="height: 20px; width: 20px; background-image:url('like11.png');" onclick="funkcija()">
+                   
+                       
+                </div>
+                
             </div>
+            <div id="comments" onclick="myFunction()">
+                
+                    <i class="far fa-comments"></i>
+
+            </div>
+            <div id="myDIV" style="display: none;">
+                <input type="text" id="komentarot">
+                <input type="submit" onclick="postComment()">
+              </div>
+              
+            <div id="where" class="textUnderPic">
+                
+                </div>
         </div>
         
-        <div id="divNo2">
+        <div class="divNo2">
             <div id="slika2"></div>
             <hr id="lineUnderPic">
-            <div class="textUnderPic">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+            <div class="container">
+                <div id="kocka" style="height: 20px; width: 20px; background-image:url('like11.png');" onclick="funkcija()">
+                    
+                       
+                </div>
+                
             </div>
-        
+            <div id="comments" onclick="myFunction()">
+                
+                    <i class="far fa-comments"></i>
+                
+
+                    
+                    
+                    
+
+
+            </div>
+            <div id="myDIV" style="display: none;">
+                <input type="text" id="komentarot">
+                <input type="submit" onclick="postComment()">
+              </div>
+              
+            <div id="where" class="textUnderPic">
+                <!--Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                -->
+                </div>
         </div>
-        <div id="divNo3">
+        <div class="divNo2">
             <div id="slika3"></div>
             <hr id="lineUnderPic">
-            <div class="textUnderPic">
-                I love traveling with friends.
+            <div class="container">
+                <div id="kocka" style="height: 20px; width: 20px; background-image:url('like11.png');" onclick="funkcija()">
+                       
+                </div>
+                
             </div>
+            <div id="comments" onclick="myFunction()">
+                
+                    <i class="far fa-comments"></i>
+                
+
+                    
+                    
+                    
+
+
+            </div>
+            <div id="myDIV" style="display: none;">
+                <input type="text" id="komentarot">
+                <input type="submit" onclick="postComment()">
+              </div>
+              
+            <div id="where" class="textUnderPic">
+                <!--Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                -->
+                </div>
         </div>
-        <div id = "divNo4">
+        <div class="divNo2">
             <div id="slika4"></div>
             <hr id="lineUnderPic">
-            <div class="textUnderPic">
-              The cutest puppy ever!!!
+            <div class="container">
+                <div id="kocka" style="height: 20px; width: 20px; background-image:url('like11.png');" onclick="funkcija()">
+                       
+                </div>
+                
             </div>
+            <div id="comments" onclick="myFunction()">
+                
+                    <i class="far fa-comments"></i>
+                
+
+                    
+                    
+                    
+
+
+            </div>
+            <div id="myDIV" style="display: none;">
+                <input type="text" id="komentarot">
+                <input type="submit" onclick="postComment()">
+              </div>
+              
+            <div id="where" class="textUnderPic">
+                <!--Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                -->
+                </div>
         </div>
         
     </div>
+    
     </body>
 </html>
